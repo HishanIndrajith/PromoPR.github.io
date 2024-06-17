@@ -1,0 +1,627 @@
+.elementor-kit-3 {
+	--e-global-color-primary: #222731;
+	--e-global-color-secondary: #54595F;
+	--e-global-color-text: #7C8596;
+	--e-global-color-accent: #61CE70;
+	--e-global-color-faadce6: #F8BC3E;
+	--e-global-color-6134d38: #397CF2;
+	--e-global-color-6018f3f: #E32B2C;
+	--e-global-color-32f2e26: #A4A8B1;
+	--e-global-color-89bc7fb: #FFFFFF;
+	--e-global-color-08931f6: #F9F9F9;
+	--e-global-color-f7744ae: #CBCBCB;
+	--e-global-color-16fdc7d: #FCFCFC;
+	--e-global-color-01cddfc: #828B9D;
+	--e-global-color-d45d36c: #EEF2F9;
+	--e-global-color-67a0930: #707070;
+	--e-global-color-6b033b9: #EBEBEB;
+	--e-global-color-1d81b29: #A4A8B166;
+	--e-global-color-bd312b0: #EFF2F9;
+	--e-global-typography-primary-font-family: "Roboto";
+	--e-global-typography-primary-font-weight: 600;
+	--e-global-typography-secondary-font-family: "Roboto Slab";
+	--e-global-typography-secondary-font-weight: 400;
+	--e-global-typography-text-font-family: "Nunito Sans";
+	--e-global-typography-text-font-size: 1.063em;
+	--e-global-typography-text-font-weight: 400;
+	--e-global-typography-text-text-transform: none;
+	--e-global-typography-text-font-style: normal;
+	--e-global-typography-text-text-decoration: none;
+	--e-global-typography-text-line-height: 1.647em;
+	--e-global-typography-text-letter-spacing: 0px;
+	--e-global-typography-accent-font-family: "Nunito Sans";
+	--e-global-typography-accent-font-size: 1em;
+	--e-global-typography-accent-font-weight: 800;
+	--e-global-typography-accent-text-transform: capitalize;
+	--e-global-typography-accent-font-style: normal;
+	--e-global-typography-accent-text-decoration: none;
+	--e-global-typography-accent-line-height: 3.411em;
+	--e-global-typography-accent-letter-spacing: 0px;
+	--e-global-typography-451e8fd-font-family: "Nunito Sans";
+	--e-global-typography-451e8fd-font-size: 0.875em;
+	--e-global-typography-451e8fd-font-weight: 700;
+	--e-global-typography-451e8fd-text-transform: uppercase;
+	--e-global-typography-451e8fd-font-style: normal;
+	--e-global-typography-451e8fd-text-decoration: none;
+	--e-global-typography-451e8fd-line-height: 1.571em;
+	--e-global-typography-451e8fd-letter-spacing: 1.835px;
+	--e-global-typography-4e31d3a-font-family: "Nunito Sans";
+	--e-global-typography-4e31d3a-font-size: 1.188em;
+	--e-global-typography-4e31d3a-font-weight: 600;
+	--e-global-typography-4e31d3a-text-transform: capitalize;
+	--e-global-typography-4e31d3a-font-style: normal;
+	--e-global-typography-4e31d3a-text-decoration: none;
+	--e-global-typography-4e31d3a-line-height: 1.263em;
+	--e-global-typography-4e31d3a-letter-spacing: 0px;
+	--e-global-typography-6d26cf0-font-family: "Nunito Sans";
+	--e-global-typography-6d26cf0-font-size: 3.563em;
+	--e-global-typography-6d26cf0-font-weight: 800;
+	--e-global-typography-6d26cf0-text-transform: capitalize;
+	--e-global-typography-6d26cf0-font-style: normal;
+	--e-global-typography-6d26cf0-text-decoration: none;
+	--e-global-typography-6d26cf0-line-height: 1.088em;
+	--e-global-typography-6d26cf0-letter-spacing: 0px;
+	--e-global-typography-a8811af-font-family: "Nunito Sans";
+	--e-global-typography-a8811af-font-size: 2.938em;
+	--e-global-typography-a8811af-font-weight: 800;
+	--e-global-typography-a8811af-text-transform: capitalize;
+	--e-global-typography-a8811af-font-style: normal;
+	--e-global-typography-a8811af-text-decoration: none;
+	--e-global-typography-a8811af-line-height: 1.106em;
+	--e-global-typography-d693f50-font-family: "Nunito Sans";
+	--e-global-typography-d693f50-font-size: 1.5em;
+	--e-global-typography-d693f50-font-weight: 800;
+	--e-global-typography-d693f50-text-transform: capitalize;
+	--e-global-typography-d693f50-font-style: normal;
+	--e-global-typography-d693f50-text-decoration: none;
+	--e-global-typography-d693f50-line-height: 1.167em;
+	--e-global-typography-d693f50-letter-spacing: 0px;
+	--e-global-typography-74ac489-font-family: "Nunito Sans";
+	--e-global-typography-74ac489-font-size: 1.25em;
+	--e-global-typography-74ac489-font-weight: 400;
+	--e-global-typography-74ac489-text-transform: none;
+	--e-global-typography-74ac489-font-style: normal;
+	--e-global-typography-74ac489-text-decoration: none;
+	--e-global-typography-74ac489-line-height: 1.6em;
+	--e-global-typography-74ac489-letter-spacing: 0px;
+	--e-global-typography-369ac72-font-family: "Nunito Sans";
+	--e-global-typography-369ac72-font-size: 1.188em;
+	--e-global-typography-369ac72-font-weight: 800;
+	--e-global-typography-369ac72-text-transform: capitalize;
+	--e-global-typography-369ac72-font-style: normal;
+	--e-global-typography-369ac72-text-decoration: none;
+	--e-global-typography-369ac72-line-height: 1.474em;
+	--e-global-typography-369ac72-letter-spacing: 0px;
+	--e-global-typography-e52ced7-font-family: "Nunito Sans";
+	--e-global-typography-e52ced7-font-size: 1em;
+	--e-global-typography-e52ced7-font-weight: 400;
+	--e-global-typography-e52ced7-text-transform: none;
+	--e-global-typography-e52ced7-font-style: normal;
+	--e-global-typography-e52ced7-text-decoration: none;
+	--e-global-typography-e52ced7-line-height: 1.75em;
+	--e-global-typography-e52ced7-letter-spacing: 0px;
+	--e-global-typography-4bb5246-font-family: "Nunito Sans";
+	--e-global-typography-4bb5246-font-size: 2.25em;
+	--e-global-typography-4bb5246-font-weight: 800;
+	--e-global-typography-4bb5246-text-transform: none;
+	--e-global-typography-4bb5246-font-style: normal;
+	--e-global-typography-4bb5246-text-decoration: none;
+	--e-global-typography-4bb5246-line-height: 1.139em;
+	--e-global-typography-4bb5246-letter-spacing: -1.8px;
+	--e-global-typography-0a69ef1-font-family: "Nunito Sans";
+	--e-global-typography-0a69ef1-font-size: 2.188em;
+	--e-global-typography-0a69ef1-font-weight: 800;
+	--e-global-typography-0a69ef1-text-transform: none;
+	--e-global-typography-0a69ef1-font-style: normal;
+	--e-global-typography-0a69ef1-text-decoration: none;
+	--e-global-typography-0a69ef1-line-height: 1.286em;
+	--e-global-typography-0a69ef1-letter-spacing: 0px;
+	--e-global-typography-1dd2700-font-family: "Nunito Sans";
+	--e-global-typography-1dd2700-font-size: 1.75em;
+	--e-global-typography-1dd2700-font-weight: 800;
+	--e-global-typography-1dd2700-text-transform: none;
+	--e-global-typography-1dd2700-font-style: normal;
+	--e-global-typography-1dd2700-text-decoration: none;
+	--e-global-typography-1dd2700-line-height: 1.357em;
+	--e-global-typography-1dd2700-letter-spacing: 0px;
+	--e-global-typography-d63ae38-font-family: "Nunito Sans";
+	--e-global-typography-d63ae38-font-size: 1.063em;
+	--e-global-typography-d63ae38-font-weight: 700;
+	--e-global-typography-d63ae38-text-transform: capitalize;
+	--e-global-typography-d63ae38-font-style: normal;
+	--e-global-typography-d63ae38-text-decoration: none;
+	--e-global-typography-d63ae38-line-height: 2.882em;
+	--e-global-typography-d63ae38-letter-spacing: 0px;
+	--e-global-typography-6b4fe22-font-family: "Nunito Sans";
+	--e-global-typography-6b4fe22-font-size: 1.063em;
+	--e-global-typography-6b4fe22-font-weight: 400;
+	--e-global-typography-6b4fe22-text-transform: capitalize;
+	--e-global-typography-6b4fe22-font-style: normal;
+	--e-global-typography-6b4fe22-text-decoration: none;
+	--e-global-typography-6b4fe22-line-height: 2.294em;
+	--e-global-typography-6b4fe22-letter-spacing: 0px;
+	--e-global-typography-5fd4a47-font-family: "Nunito Sans";
+	--e-global-typography-5fd4a47-font-size: 1.063em;
+	--e-global-typography-5fd4a47-font-weight: 400;
+	--e-global-typography-5fd4a47-text-transform: none;
+	--e-global-typography-5fd4a47-font-style: normal;
+	--e-global-typography-5fd4a47-text-decoration: none;
+	--e-global-typography-5fd4a47-line-height: 1.882em;
+	--e-global-typography-5fd4a47-letter-spacing: 0px;
+	--e-global-typography-702dbf8-font-family: "Nunito Sans";
+	--e-global-typography-702dbf8-font-size: 1em;
+	--e-global-typography-702dbf8-font-weight: 700;
+	--e-global-typography-702dbf8-text-transform: capitalize;
+	--e-global-typography-702dbf8-font-style: normal;
+	--e-global-typography-702dbf8-text-decoration: none;
+	--e-global-typography-702dbf8-line-height: 2.563em;
+	--e-global-typography-702dbf8-letter-spacing: 0px;
+	--e-global-typography-86f505b-font-family: "Nunito Sans";
+	--e-global-typography-86f505b-font-size: 0.938em;
+	--e-global-typography-86f505b-font-weight: 800;
+	--e-global-typography-86f505b-text-transform: capitalize;
+	--e-global-typography-86f505b-font-style: normal;
+	--e-global-typography-86f505b-text-decoration: none;
+	--e-global-typography-86f505b-line-height: 3em;
+	--e-global-typography-99eb625-font-family: "Nunito Sans";
+	--e-global-typography-99eb625-font-size: 1em;
+	--e-global-typography-99eb625-font-weight: 800;
+	--e-global-typography-99eb625-text-transform: none;
+	--e-global-typography-99eb625-font-style: normal;
+	--e-global-typography-99eb625-text-decoration: none;
+	--e-global-typography-99eb625-line-height: 3.4em;
+	--e-global-typography-99eb625-letter-spacing: 0px;
+	--e-global-typography-cbe527d-font-family: "Nunito Sans";
+	--e-global-typography-cbe527d-font-size: 1.188em;
+	--e-global-typography-cbe527d-font-weight: 800;
+	--e-global-typography-cbe527d-text-transform: capitalize;
+	--e-global-typography-cbe527d-font-style: normal;
+	--e-global-typography-cbe527d-text-decoration: none;
+	--e-global-typography-cbe527d-line-height: 1.474em;
+	--e-global-typography-cbe527d-letter-spacing: -0.45px;
+	--e-global-typography-845714c-font-family: "Nunito Sans";
+	--e-global-typography-845714c-font-size: 1.2em;
+	--e-global-typography-845714c-font-weight: 800;
+	--e-global-typography-845714c-text-transform: capitalize;
+	--e-global-typography-845714c-font-style: normal;
+	--e-global-typography-845714c-text-decoration: none;
+	--e-global-typography-845714c-line-height: 1.2em;
+	--e-global-typography-845714c-letter-spacing: 0.5px;
+	--e-global-typography-6b9ab35-font-family: "Nunito Sans";
+	--e-global-typography-6b9ab35-font-size: 1.188em;
+	--e-global-typography-6b9ab35-font-weight: 800;
+	--e-global-typography-6b9ab35-text-transform: capitalize;
+	--e-global-typography-6b9ab35-font-style: normal;
+	--e-global-typography-6b9ab35-text-decoration: none;
+	--e-global-typography-6b9ab35-line-height: 1.474em;
+	--e-global-typography-6b9ab35-letter-spacing: 0.8px;
+	--e-global-typography-9ac63af-font-family: "Nunito Sans";
+	--e-global-typography-9ac63af-font-size: 1.5rem;
+	--e-global-typography-9ac63af-font-weight: 800;
+	--e-global-typography-9ac63af-text-transform: capitalize;
+	--e-global-typography-9ac63af-font-style: normal;
+	--e-global-typography-9ac63af-text-decoration: none;
+	--e-global-typography-9ac63af-line-height: 1.167em;
+	--e-global-typography-9ac63af-letter-spacing: 0px;
+	--e-global-typography-e9e764a-font-family: "Nunito Sans";
+	--e-global-typography-e9e764a-font-size: 1.188rem;
+	--e-global-typography-e9e764a-font-weight: 800;
+	--e-global-typography-e9e764a-text-transform: capitalize;
+	--e-global-typography-e9e764a-font-style: normal;
+	--e-global-typography-e9e764a-text-decoration: none;
+	--e-global-typography-e9e764a-line-height: 1.474em;
+	--e-global-typography-e9e764a-letter-spacing: 0px;
+	--e-global-typography-29c9cb9-font-family: "Nunito Sans";
+	--e-global-typography-29c9cb9-font-size: 1.063rem;
+	--e-global-typography-29c9cb9-font-weight: 400;
+	--e-global-typography-29c9cb9-text-transform: none;
+	--e-global-typography-29c9cb9-font-style: normal;
+	--e-global-typography-29c9cb9-text-decoration: none;
+	--e-global-typography-29c9cb9-line-height: 1.647em;
+	--e-global-typography-29c9cb9-letter-spacing: 0px;
+	--e-global-typography-6245153-font-family: "Nunito Sans";
+	--e-global-typography-6245153-font-size: 2.188rem;
+	--e-global-typography-6245153-font-weight: 800;
+	--e-global-typography-6245153-text-transform: none;
+	--e-global-typography-6245153-font-style: normal;
+	--e-global-typography-6245153-text-decoration: none;
+	--e-global-typography-6245153-line-height: 1.286em;
+	--e-global-typography-6245153-letter-spacing: 0px;
+	--e-global-typography-faaf7fc-font-family: "Nunito Sans";
+	--e-global-typography-faaf7fc-font-size: 2.938rem;
+	--e-global-typography-faaf7fc-font-weight: 800;
+	--e-global-typography-faaf7fc-text-transform: capitalize;
+	--e-global-typography-faaf7fc-font-style: normal;
+	--e-global-typography-faaf7fc-text-decoration: none;
+	--e-global-typography-faaf7fc-line-height: 1.106em;
+	--e-global-typography-faaf7fc-letter-spacing: 0px;
+	--e-global-typography-76d1ae6-font-family: "Nunito Sans";
+	--e-global-typography-76d1ae6-font-size: 1rem;
+	--e-global-typography-76d1ae6-font-weight: 800;
+	--e-global-typography-76d1ae6-text-transform: capitalize;
+	--e-global-typography-76d1ae6-font-style: normal;
+	--e-global-typography-76d1ae6-text-decoration: none;
+	--e-global-typography-76d1ae6-line-height: 3em;
+	--e-global-typography-76d1ae6-letter-spacing: 0px;
+	color: var(--e-global-color-primary);
+}
+
+.elementor-kit-3 a {
+	color: var(--e-global-color-6134d38);
+}
+
+.elementor-kit-3 a:hover {
+	color: var(--e-global-color-faadce6);
+}
+
+.elementor-kit-3 h1 {
+	font-family: var(--e-global-typography-6d26cf0-font-family), Sans-serif;
+	font-size: var(--e-global-typography-6d26cf0-font-size);
+	font-weight: var(--e-global-typography-6d26cf0-font-weight);
+	text-transform: var(--e-global-typography-6d26cf0-text-transform);
+	font-style: var(--e-global-typography-6d26cf0-font-style);
+	text-decoration: var(--e-global-typography-6d26cf0-text-decoration);
+	line-height: var(--e-global-typography-6d26cf0-line-height);
+	letter-spacing: var(--e-global-typography-6d26cf0-letter-spacing);
+	word-spacing: var(--e-global-typography-6d26cf0-word-spacing);
+}
+
+.elementor-kit-3 h2 {
+	font-family: var(--e-global-typography-a8811af-font-family), Sans-serif;
+	font-size: var(--e-global-typography-a8811af-font-size);
+	font-weight: var(--e-global-typography-a8811af-font-weight);
+	text-transform: var(--e-global-typography-a8811af-text-transform);
+	font-style: var(--e-global-typography-a8811af-font-style);
+	text-decoration: var(--e-global-typography-a8811af-text-decoration);
+	line-height: var(--e-global-typography-a8811af-line-height);
+	letter-spacing: var(--e-global-typography-a8811af-letter-spacing);
+	word-spacing: var(--e-global-typography-a8811af-word-spacing);
+}
+
+.elementor-kit-3 h3 {
+	font-family: var(--e-global-typography-d693f50-font-family), Sans-serif;
+	font-size: var(--e-global-typography-d693f50-font-size);
+	font-weight: var(--e-global-typography-d693f50-font-weight);
+	text-transform: var(--e-global-typography-d693f50-text-transform);
+	font-style: var(--e-global-typography-d693f50-font-style);
+	text-decoration: var(--e-global-typography-d693f50-text-decoration);
+	line-height: var(--e-global-typography-d693f50-line-height);
+	letter-spacing: var(--e-global-typography-d693f50-letter-spacing);
+	word-spacing: var(--e-global-typography-d693f50-word-spacing);
+}
+
+.elementor-kit-3 h4 {
+	font-family: var(--e-global-typography-74ac489-font-family), Sans-serif;
+	font-size: var(--e-global-typography-74ac489-font-size);
+	font-weight: var(--e-global-typography-74ac489-font-weight);
+	text-transform: var(--e-global-typography-74ac489-text-transform);
+	font-style: var(--e-global-typography-74ac489-font-style);
+	text-decoration: var(--e-global-typography-74ac489-text-decoration);
+	line-height: var(--e-global-typography-74ac489-line-height);
+	letter-spacing: var(--e-global-typography-74ac489-letter-spacing);
+	word-spacing: var(--e-global-typography-74ac489-word-spacing);
+}
+
+.elementor-kit-3 h5 {
+	font-family: var(--e-global-typography-369ac72-font-family), Sans-serif;
+	font-size: var(--e-global-typography-369ac72-font-size);
+	font-weight: var(--e-global-typography-369ac72-font-weight);
+	text-transform: var(--e-global-typography-369ac72-text-transform);
+	font-style: var(--e-global-typography-369ac72-font-style);
+	text-decoration: var(--e-global-typography-369ac72-text-decoration);
+	line-height: var(--e-global-typography-369ac72-line-height);
+	letter-spacing: var(--e-global-typography-369ac72-letter-spacing);
+	word-spacing: var(--e-global-typography-369ac72-word-spacing);
+}
+
+.elementor-kit-3 h6 {
+	font-family: var(--e-global-typography-e52ced7-font-family), Sans-serif;
+	font-size: var(--e-global-typography-e52ced7-font-size);
+	font-weight: var(--e-global-typography-e52ced7-font-weight);
+	text-transform: var(--e-global-typography-e52ced7-text-transform);
+	font-style: var(--e-global-typography-e52ced7-font-style);
+	text-decoration: var(--e-global-typography-e52ced7-text-decoration);
+	line-height: var(--e-global-typography-e52ced7-line-height);
+	letter-spacing: var(--e-global-typography-e52ced7-letter-spacing);
+	word-spacing: var(--e-global-typography-e52ced7-word-spacing);
+}
+
+.elementor-kit-3 button,
+.elementor-kit-3 input[type="button"],
+.elementor-kit-3 input[type="submit"],
+.elementor-kit-3 .elementor-button {
+	font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+	font-size: var(--e-global-typography-accent-font-size);
+	font-weight: var(--e-global-typography-accent-font-weight);
+	text-transform: var(--e-global-typography-accent-text-transform);
+	font-style: var(--e-global-typography-accent-font-style);
+	text-decoration: var(--e-global-typography-accent-text-decoration);
+	line-height: var(--e-global-typography-accent-line-height);
+	letter-spacing: var(--e-global-typography-accent-letter-spacing);
+	color: var(--e-global-color-89bc7fb);
+	background-color: var(--e-global-color-6134d38);
+	box-shadow: 0px 27px 40px 12px rgba(34, 39.00000000000001, 49.00000000000001, 0.14901960784313725);
+	border-radius: 50px 50px 50px 50px;
+	padding: 0em 2.6em 0em 2.6em;
+}
+
+.elementor-kit-3 button:hover,
+.elementor-kit-3 button:focus,
+.elementor-kit-3 input[type="button"]:hover,
+.elementor-kit-3 input[type="button"]:focus,
+.elementor-kit-3 input[type="submit"]:hover,
+.elementor-kit-3 input[type="submit"]:focus,
+.elementor-kit-3 .elementor-button:hover,
+.elementor-kit-3 .elementor-button:focus {
+	color: var(--e-global-color-89bc7fb);
+	background-color: var(--e-global-color-faadce6);
+	border-radius: 50px 50px 50px 50px;
+}
+
+.elementor-kit-3 label {
+	color: var(--e-global-color-text);
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-size: var(--e-global-typography-text-font-size);
+	font-weight: var(--e-global-typography-text-font-weight);
+	text-transform: var(--e-global-typography-text-text-transform);
+	font-style: var(--e-global-typography-text-font-style);
+	text-decoration: var(--e-global-typography-text-text-decoration);
+	line-height: var(--e-global-typography-text-line-height);
+	letter-spacing: var(--e-global-typography-text-letter-spacing);
+}
+
+.elementor-kit-3 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-3 textarea,
+.elementor-kit-3 .elementor-field-textual {
+	font-family: var(--e-global-typography-text-font-family), Sans-serif;
+	font-size: var(--e-global-typography-text-font-size);
+	font-weight: var(--e-global-typography-text-font-weight);
+	text-transform: var(--e-global-typography-text-text-transform);
+	font-style: var(--e-global-typography-text-font-style);
+	text-decoration: var(--e-global-typography-text-text-decoration);
+	line-height: var(--e-global-typography-text-line-height);
+	letter-spacing: var(--e-global-typography-text-letter-spacing);
+	color: var(--e-global-color-32f2e26);
+	background-color: var(--e-global-color-89bc7fb);
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: var(--e-global-color-32f2e26);
+	border-radius: 0px 0px 0px 0px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+	max-width: 1170px;
+}
+
+.e-con {
+	--container-max-width: 1170px;
+}
+
+.elementor-widget:not(:last-child) {
+	margin-block-end: 0px;
+}
+
+.elementor-element {
+	--widgets-spacing: 0px 0px;
+}
+
+h1.entry-title {
+	display: var(--page-title-display);
+}
+
+.elementor-kit-3 e-page-transition {
+	background-color: #FFBC7D;
+}
+
+@media(max-width:1024px) {
+	.elementor-kit-3 {
+		--e-global-typography-text-font-size: 1em;
+		--e-global-typography-accent-font-size: 0.938em;
+		--e-global-typography-451e8fd-font-size: 0.813em;
+		--e-global-typography-4e31d3a-font-size: 1.063em;
+		--e-global-typography-6d26cf0-font-size: 2.5em;
+		--e-global-typography-a8811af-font-size: 2.25em;
+		--e-global-typography-d693f50-font-size: 1.188em;
+		--e-global-typography-74ac489-font-size: 1.063em;
+		--e-global-typography-369ac72-font-size: 1em;
+		--e-global-typography-e52ced7-font-size: 0.875em;
+		--e-global-typography-4bb5246-font-size: 1.75em;
+		--e-global-typography-0a69ef1-font-size: 1.5em;
+		--e-global-typography-1dd2700-font-size: 1.25em;
+		--e-global-typography-d63ae38-font-size: 0.938em;
+		--e-global-typography-6b4fe22-font-size: 0.938em;
+		--e-global-typography-5fd4a47-font-size: 0.938em;
+		--e-global-typography-702dbf8-font-size: 0.875em;
+		--e-global-typography-86f505b-font-size: 0.75em;
+		--e-global-typography-99eb625-font-size: 0.875em;
+		--e-global-typography-cbe527d-font-size: 1em;
+		--e-global-typography-845714c-font-size: 1.063em;
+		--e-global-typography-6b9ab35-font-size: 1em;
+		--e-global-typography-9ac63af-font-size: 1.188rem;
+		--e-global-typography-e9e764a-font-size: 1rem;
+		--e-global-typography-29c9cb9-font-size: 0.938rem;
+		--e-global-typography-6245153-font-size: 1.5rem;
+		--e-global-typography-faaf7fc-font-size: 2.25rem;
+		--e-global-typography-76d1ae6-font-size: 0.875rem;
+	}
+
+	.elementor-kit-3 h1 {
+		font-size: var(--e-global-typography-6d26cf0-font-size);
+		line-height: var(--e-global-typography-6d26cf0-line-height);
+		letter-spacing: var(--e-global-typography-6d26cf0-letter-spacing);
+		word-spacing: var(--e-global-typography-6d26cf0-word-spacing);
+	}
+
+	.elementor-kit-3 h2 {
+		font-size: var(--e-global-typography-a8811af-font-size);
+		line-height: var(--e-global-typography-a8811af-line-height);
+		letter-spacing: var(--e-global-typography-a8811af-letter-spacing);
+		word-spacing: var(--e-global-typography-a8811af-word-spacing);
+	}
+
+	.elementor-kit-3 h3 {
+		font-size: var(--e-global-typography-d693f50-font-size);
+		line-height: var(--e-global-typography-d693f50-line-height);
+		letter-spacing: var(--e-global-typography-d693f50-letter-spacing);
+		word-spacing: var(--e-global-typography-d693f50-word-spacing);
+	}
+
+	.elementor-kit-3 h4 {
+		font-size: var(--e-global-typography-74ac489-font-size);
+		line-height: var(--e-global-typography-74ac489-line-height);
+		letter-spacing: var(--e-global-typography-74ac489-letter-spacing);
+		word-spacing: var(--e-global-typography-74ac489-word-spacing);
+	}
+
+	.elementor-kit-3 h5 {
+		font-size: var(--e-global-typography-369ac72-font-size);
+		line-height: var(--e-global-typography-369ac72-line-height);
+		letter-spacing: var(--e-global-typography-369ac72-letter-spacing);
+		word-spacing: var(--e-global-typography-369ac72-word-spacing);
+	}
+
+	.elementor-kit-3 h6 {
+		font-size: var(--e-global-typography-e52ced7-font-size);
+		line-height: var(--e-global-typography-e52ced7-line-height);
+		letter-spacing: var(--e-global-typography-e52ced7-letter-spacing);
+		word-spacing: var(--e-global-typography-e52ced7-word-spacing);
+	}
+
+	.elementor-kit-3 button,
+	.elementor-kit-3 input[type="button"],
+	.elementor-kit-3 input[type="submit"],
+	.elementor-kit-3 .elementor-button {
+		font-size: var(--e-global-typography-accent-font-size);
+		line-height: var(--e-global-typography-accent-line-height);
+		letter-spacing: var(--e-global-typography-accent-letter-spacing);
+		padding: 0em 1.8em 0em 1.8em;
+	}
+
+	.elementor-kit-3 label {
+		font-size: var(--e-global-typography-text-font-size);
+		line-height: var(--e-global-typography-text-line-height);
+		letter-spacing: var(--e-global-typography-text-letter-spacing);
+	}
+
+	.elementor-kit-3 input:not([type="button"]):not([type="submit"]),
+	.elementor-kit-3 textarea,
+	.elementor-kit-3 .elementor-field-textual {
+		font-size: var(--e-global-typography-text-font-size);
+		line-height: var(--e-global-typography-text-line-height);
+		letter-spacing: var(--e-global-typography-text-letter-spacing);
+	}
+
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 1024px;
+	}
+
+	.e-con {
+		--container-max-width: 1024px;
+	}
+}
+
+@media(max-width:767px) {
+	.elementor-kit-3 {
+		--e-global-typography-text-font-size: 0.813em;
+		--e-global-typography-accent-font-size: 0.875em;
+		--e-global-typography-451e8fd-font-size: 0.75em;
+		--e-global-typography-4e31d3a-font-size: 1em;
+		--e-global-typography-6d26cf0-font-size: 2em;
+		--e-global-typography-a8811af-font-size: 1.75em;
+		--e-global-typography-d693f50-font-size: 1em;
+		--e-global-typography-74ac489-font-size: 0.938em;
+		--e-global-typography-369ac72-font-size: 0.875em;
+		--e-global-typography-e52ced7-font-size: 0.75em;
+		--e-global-typography-4bb5246-font-size: 1.25em;
+		--e-global-typography-0a69ef1-font-size: 1.188em;
+		--e-global-typography-1dd2700-font-size: 1.063em;
+		--e-global-typography-d63ae38-font-size: 0.813em;
+		--e-global-typography-6b4fe22-font-size: 0.813em;
+		--e-global-typography-5fd4a47-font-size: 0.813em;
+		--e-global-typography-702dbf8-font-size: 0.75em;
+		--e-global-typography-86f505b-font-size: 0.688em;
+		--e-global-typography-99eb625-font-size: 0.75em;
+		--e-global-typography-cbe527d-font-size: 0.875em;
+		--e-global-typography-845714c-font-size: 0.938em;
+		--e-global-typography-6b9ab35-font-size: 0.875em;
+		--e-global-typography-9ac63af-font-size: 1rem;
+		--e-global-typography-e9e764a-font-size: 0.875rem;
+		--e-global-typography-29c9cb9-font-size: 0.813rem;
+		--e-global-typography-6245153-font-size: 1.188rem;
+		--e-global-typography-faaf7fc-font-size: 1.75rem;
+		--e-global-typography-76d1ae6-font-size: 0.75rem;
+	}
+
+	.elementor-kit-3 h1 {
+		font-size: var(--e-global-typography-6d26cf0-font-size);
+		line-height: var(--e-global-typography-6d26cf0-line-height);
+		letter-spacing: var(--e-global-typography-6d26cf0-letter-spacing);
+		word-spacing: var(--e-global-typography-6d26cf0-word-spacing);
+	}
+
+	.elementor-kit-3 h2 {
+		font-size: var(--e-global-typography-a8811af-font-size);
+		line-height: var(--e-global-typography-a8811af-line-height);
+		letter-spacing: var(--e-global-typography-a8811af-letter-spacing);
+		word-spacing: var(--e-global-typography-a8811af-word-spacing);
+	}
+
+	.elementor-kit-3 h3 {
+		font-size: var(--e-global-typography-d693f50-font-size);
+		line-height: var(--e-global-typography-d693f50-line-height);
+		letter-spacing: var(--e-global-typography-d693f50-letter-spacing);
+		word-spacing: var(--e-global-typography-d693f50-word-spacing);
+	}
+
+	.elementor-kit-3 h4 {
+		font-size: var(--e-global-typography-74ac489-font-size);
+		line-height: var(--e-global-typography-74ac489-line-height);
+		letter-spacing: var(--e-global-typography-74ac489-letter-spacing);
+		word-spacing: var(--e-global-typography-74ac489-word-spacing);
+	}
+
+	.elementor-kit-3 h5 {
+		font-size: var(--e-global-typography-369ac72-font-size);
+		line-height: var(--e-global-typography-369ac72-line-height);
+		letter-spacing: var(--e-global-typography-369ac72-letter-spacing);
+		word-spacing: var(--e-global-typography-369ac72-word-spacing);
+	}
+
+	.elementor-kit-3 h6 {
+		font-size: var(--e-global-typography-e52ced7-font-size);
+		line-height: var(--e-global-typography-e52ced7-line-height);
+		letter-spacing: var(--e-global-typography-e52ced7-letter-spacing);
+		word-spacing: var(--e-global-typography-e52ced7-word-spacing);
+	}
+
+	.elementor-kit-3 button,
+	.elementor-kit-3 input[type="button"],
+	.elementor-kit-3 input[type="submit"],
+	.elementor-kit-3 .elementor-button {
+		font-size: var(--e-global-typography-accent-font-size);
+		line-height: var(--e-global-typography-accent-line-height);
+		letter-spacing: var(--e-global-typography-accent-letter-spacing);
+	}
+
+	.elementor-kit-3 label {
+		font-size: var(--e-global-typography-text-font-size);
+		line-height: var(--e-global-typography-text-line-height);
+		letter-spacing: var(--e-global-typography-text-letter-spacing);
+	}
+
+	.elementor-kit-3 input:not([type="button"]):not([type="submit"]),
+	.elementor-kit-3 textarea,
+	.elementor-kit-3 .elementor-field-textual {
+		font-size: var(--e-global-typography-text-font-size);
+		line-height: var(--e-global-typography-text-line-height);
+		letter-spacing: var(--e-global-typography-text-letter-spacing);
+	}
+
+	.elementor-section.elementor-section-boxed>.elementor-container {
+		max-width: 767px;
+	}
+
+	.e-con {
+		--container-max-width: 767px;
+	}
+}
